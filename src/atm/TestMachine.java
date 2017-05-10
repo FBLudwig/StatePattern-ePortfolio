@@ -8,10 +8,8 @@ public class TestMachine {
         atm.ejectCard();
         atm.insertCard();
         atm.enterPIN(1234);
-        atm.requestCash(100);
+        atm.requestCash(2000);
 
-        atm.insertCard();
-        atm.enterPIN(2345);
-        atm.ejectCard();
+
     }
 }

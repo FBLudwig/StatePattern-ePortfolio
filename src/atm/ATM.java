@@ -1,6 +1,6 @@
 package atm;
 
-public class ATM  {                 // Why not implement Interface ATMState?
+public class ATM  {
     private ATMState atmState;
 
     private ATMState noCard = new NoCard(this);
